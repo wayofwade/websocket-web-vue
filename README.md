@@ -1,7 +1,8 @@
 # custom-service
 
 > A Vue.js project
-
+> websocket的前端部分
+> 后端部分 spring-boot-websocket-server
 ## Build Setup
 
 ``` bash
