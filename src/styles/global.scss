@@ -1,0 +1,135 @@
+// element 样式覆盖
+
+  //按钮颜色修改
+.el-button--primary{
+  background-color: #6cb5f4;
+  border-color: #6cb5f4;
+}
+.el-button--primary:focus, .el-button--primary:hover{
+  background-color: #3d9df0;
+  border-color: #3d9df0;
+  color: #fff;
+}
+.el-button--success{
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+.el-button--success:focus, .el-button--success:hover{
+  background-color: #449d44;
+  border-color: #449d44;
+  color: #fff;
+}
+.el-button--info{
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+}
+.el-button--info:focus, .el-button--info:hover{
+  background-color: #31b0d5;
+  border-color: #31b0d5;
+  color: #fff;
+}
+.el-button--warning{
+  background-color: #f0ad4e;
+  border-color: #f0ad4e;
+}
+.el-button--warning:focus, .el-button--warning:hover{
+  background-color: #ec971f;
+  border-color: #ec971f;
+  color: #fff;
+}
+.el-button--danger{
+  background-color: #d9534f;
+  border-color: #d9534f;
+}
+.el-button--danger:focus, .el-button--danger:hover{
+  background-color: #c9302c;
+  border-color: #c9302c;
+  color: #fff;
+}
+.el-input.inline{
+  display: inline-block;
+  width: 193px;
+}
+.el-button.vertical-top{
+  vertical-align: top;
+}
+.el-input.width-default{
+  width: 180px;
+}
+.el-input.width-mini{
+  width: 100px;
+}
+.el-select.width-default{
+  width: 180px;
+}
+.el-cascader.width-default{
+  width: 180px;
+}
+.el-dialog__body{
+  padding: 10px 20px 20px;
+}
+// 全局样式加g-
+.g-page-wrapper {
+  padding: 20px;
+}
+.g-pagination-box{
+  text-align: right;
+}
+// 不同宽度的input
+.g-el-input-240 {
+  width: 240px;
+}
+.g-el-input-375 {
+  width: 375px;
+}
+.g-el-input-185 {
+  width: 185px;
+}
+
+// 表格内的button样式
+.g-table-button {
+  margin: 3px;
+}
+
+// dialog 按钮居中
+.g-edit-dialog {
+  .dialog-footer {
+      text-align: center;
+  }
+}
+.g-scroll-dialog {
+  .el-dialog__header {
+    border-bottom: 1px #e5e5e5 solid;
+  }
+  .el-dialog__body {
+    overflow: auto;
+  }
+ .el-dialog__footer {
+    border-top: 1px #e5e5e5 solid;
+  }
+}
+// 灰色
+.g-ash {
+  color: #909399;
+  font-size: 12px;
+}
+
+
+// 可搜索输入框有时候会被遮罩层遮住
+.el-autocomplete-suggestion {
+  z-index: 20000!important;
+}
+
+// 页面过渡效果
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.3s ease;
+}
+.slide-enter,
+.slide-leave-to {
+  transform: translate3d(100%, 0, 0);
+}
+// 搜索表单收缩功能
+.collapseForm{
+  overflow: hidden;
+}
