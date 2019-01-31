@@ -1,10 +1,11 @@
 # custom-service
 
-> A Vue.js project
-> websocket的前端部分
-> 后端部分 spring-boot-websocket-server
-
-## 后端部分在另一个仓库--spring-boot-websocket-server==>>>>This is [后端部分](https://github.com/wayofwade/spring-boot-websocket-server). 
+- A Vue.js project
+- websocket的前端部分
+- 启动spring-boot项目，然后开启前端项目
+- npm install
+- npm run dev
+- 后端部分在另一个仓库--spring-boot-websocket-server==>>>>This is [后端部分](https://github.com/wayofwade/spring-boot-websocket-server). 
 
 ``` bash
 # install dependencies
