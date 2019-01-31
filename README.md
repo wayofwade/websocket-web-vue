@@ -4,7 +4,7 @@
 > websocket的前端部分
 > 后端部分 spring-boot-websocket-server
 
-## 后端部分在另一个仓库--websocket-web-vue==>>>>This is [后端部分](https://github.com/wayofwade/spring-boot-websocket-server). 
+## 后端部分在另一个仓库--spring-boot-websocket-server==>>>>This is [后端部分](https://github.com/wayofwade/spring-boot-websocket-server). 
 
 ``` bash
 # install dependencies
